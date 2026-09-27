@@ -11,6 +11,8 @@
 <p>The app requests the scopes <code>youtube.upload</code> and <code>youtube.force-ssl</code>. It reads only the authorized channel's ID, title and handle (to confirm the correct channel) and the videos it uploads. It does not access any other user's data.</p>
 <h2>Storage and sharing</h2>
 <p>OAuth tokens are stored only on the owner's local computer. No data is sent to any server other than Google/YouTube, and nothing is sold or shared with third parties. Tokens can be deleted at any time, and access can be revoked at <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</p>
+<h2>Data retention and deletion</h2>
+<p>The app keeps no database. The only stored data are the OAuth tokens on the owner's computer, which are kept until the owner deletes them (by removing the token files) or revokes access. Revoking access at <a href="https://myaccount.google.com/permissions">Google Account permissions</a> immediately stops all API access; the owner can then delete the local token files. No YouTube API data is cached for more than 30 days.</p>
 <h2>Google and YouTube policies</h2>
 <p>By using this app you are also bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 <h2>Contact</h2>
